@@ -12,28 +12,22 @@
 $color: #0081A8;
 $color2: #E91715;
 
-
-
-/*.navbar-nav{
-    flex-direction: row;
-}
-
-nav ul li{
-    padding: 0px 50px 0px 50px;
-    background-color: #B5B5B5;
-    margin: 0px 10px 0 10px;
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
 }*/
-
-/*li{
-	max-height: 50px !important;
-}
 
 nav{
-	height: auto;
-}*/
+	display: flex;
+	justify-content: space-around;
+}
 
 .centrar{
-	align: center;
+	display: flex;
+	float: right;
 }
 
 .active{

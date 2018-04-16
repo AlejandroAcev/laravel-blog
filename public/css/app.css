@@ -10388,26 +10388,27 @@ a.text-dark:focus {
   }
 }
 
-/*.navbar-nav{
-    flex-direction: row;
-}
-
-nav ul li{
-    padding: 0px 50px 0px 50px;
-    background-color: #B5B5B5;
-    margin: 0px 10px 0 10px;
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
 }*/
 
-/*li{
-	max-height: 50px !important;
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
-
-nav{
-	height: auto;
-}*/
 
 .centrar {
-  align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
 }
 
 .active {
