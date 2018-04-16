@@ -1,0 +1,48 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+$color: #0081A8;
+$color2: #E91715;
+
+
+
+/*.navbar-nav{
+    flex-direction: row;
+}
+
+nav ul li{
+    padding: 0px 50px 0px 50px;
+    background-color: #B5B5B5;
+    margin: 0px 10px 0 10px;
+}*/
+
+/*li{
+	max-height: 50px !important;
+}
+
+nav{
+	height: auto;
+}*/
+
+.centrar{
+	align: center;
+}
+
+.active{
+	text-decoration: none;
+	color: $color !important;
+}
+
+.error{
+	color: red;
+	font-size: 12px;
+}
+
